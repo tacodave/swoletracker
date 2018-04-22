@@ -11,18 +11,26 @@ import UIKit
 
 class addConsole: UIViewController{
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
     @IBOutlet weak var addByScanner: UIButton!
     @IBOutlet weak var addManually: UIButton!
     @IBOutlet weak var addWeight: UIButton!
     @IBOutlet weak var logoutButton: UIButton!
     
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        addManually.layer.cornerRadius = 15.0
+        
+        addByScanner.layer.cornerRadius = 15.0
+        
+        addWeight.layer.cornerRadius = 15.0
+        logoutButton.layer.cornerRadius = 15.0
+    }
     
-    
-    
+    @IBAction func addManually(_ sender: UIButton) {
+        
+    }
     
     
     override func didReceiveMemoryWarning() {

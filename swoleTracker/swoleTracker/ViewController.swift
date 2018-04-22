@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var signUp: UIButton!
@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
+        emailField.delegate = self;
+        password.delegate = self;
         password.layer.masksToBounds = true
         emailField.layer.masksToBounds = true
         password.layer.cornerRadius = 15.0
@@ -35,6 +37,11 @@ class ViewController: UIViewController {
         
     }
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true;
+    }
+    
 
     @IBAction func password(_ sender: UITextField) {
 
@@ -46,20 +53,12 @@ class ViewController: UIViewController {
         print(emailField.text!)
         print(password.text!)
         performSegue(withIdentifier: "login", sender: sender)
-
-        
     }
-    
 
     @IBAction func signUp(_ sender: Any) {
         print(emailField.text!)
         print(password.text!)
-        
-        
-        
     }
-
-
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
