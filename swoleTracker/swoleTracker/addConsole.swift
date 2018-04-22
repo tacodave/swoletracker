@@ -17,7 +17,9 @@ class addConsole: UIViewController{
         
     }
     
+    @IBOutlet weak var addByScanner: UIButton!
     
+    @IBOutlet weak var addByManual: UIButton!
     
     
     
