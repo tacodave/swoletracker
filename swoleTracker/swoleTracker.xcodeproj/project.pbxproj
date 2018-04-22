@@ -16,6 +16,8 @@
 		6E4519DF208C785500FDF75B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4519DE208C785500FDF75B /* HomeController.swift */; };
 		6E4519E7208CE41F00FDF75B /* addConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4519E6208CE41F00FDF75B /* addConsole.swift */; };
 		6ED9A940208CE74200A8B432 /* eating-healthy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6ED9A93F208CE74200A8B432 /* eating-healthy.jpeg */; };
+		6ED9A943208CE7E800A8B432 /* ThinkstockPhotos-589415708.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6ED9A942208CE7E800A8B432 /* ThinkstockPhotos-589415708.jpeg */; };
+		6ED9A945208CE7FA00A8B432 /* Bauhaus-93_6274.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6ED9A944208CE7FA00A8B432 /* Bauhaus-93_6274.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		6E4519DE208C785500FDF75B /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		6E4519E6208CE41F00FDF75B /* addConsole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addConsole.swift; sourceTree = "<group>"; };
 		6ED9A93F208CE74200A8B432 /* eating-healthy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eating-healthy.jpeg"; sourceTree = "<group>"; };
+		6ED9A941208CE7B900A8B432 /* weight_scale.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = weight_scale.jpeg; path = /Users/DavidAyala/swoletracker/swoleTracker/swoleTracker/weight_scale.jpeg; sourceTree = "<absolute>"; };
+		6ED9A942208CE7E800A8B432 /* ThinkstockPhotos-589415708.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ThinkstockPhotos-589415708.jpeg"; sourceTree = "<group>"; };
+		6ED9A944208CE7FA00A8B432 /* Bauhaus-93_6274.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bauhaus-93_6274.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 		52C3B1F1208C2D7A00D6A9B7 /* swoleTracker */ = {
 			isa = PBXGroup;
 			children = (
+				6ED9A941208CE7B900A8B432 /* weight_scale.jpeg */,
+				6ED9A944208CE7FA00A8B432 /* Bauhaus-93_6274.ttf */,
+				6ED9A942208CE7E800A8B432 /* ThinkstockPhotos-589415708.jpeg */,
 				6ED9A93F208CE74200A8B432 /* eating-healthy.jpeg */,
 				52C3B1F2208C2D7A00D6A9B7 /* AppDelegate.swift */,
 				52C3B1F4208C2D7A00D6A9B7 /* ViewController.swift */,
@@ -134,8 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ED9A943208CE7E800A8B432 /* ThinkstockPhotos-589415708.jpeg in Resources */,
 				52C3B200208C2D7C00D6A9B7 /* LaunchScreen.storyboard in Resources */,
 				52C3B1FD208C2D7C00D6A9B7 /* Assets.xcassets in Resources */,
+				6ED9A945208CE7FA00A8B432 /* Bauhaus-93_6274.ttf in Resources */,
 				6ED9A940208CE74200A8B432 /* eating-healthy.jpeg in Resources */,
 				52C3B1F8208C2D7A00D6A9B7 /* Main.storyboard in Resources */,
 			);
