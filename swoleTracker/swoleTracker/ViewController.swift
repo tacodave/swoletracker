@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  swole tracker
+//  swoleTracker
 //
-//  Created by David Ayala on 4/21/18.
+//  Created by Julian Dakwa on 4/21/18.
 //  Copyright © 2018 Swole Boyz. All rights reserved.
 //
 
