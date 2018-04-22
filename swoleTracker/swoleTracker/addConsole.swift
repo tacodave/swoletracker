@@ -21,7 +21,9 @@ class addConsole: UIViewController{
     
     @IBOutlet weak var addByManual: UIButton!
     
+    @IBOutlet weak var addWeight: UIButton!
     
+    @IBOutlet weak var logoutButton: UIButton!
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

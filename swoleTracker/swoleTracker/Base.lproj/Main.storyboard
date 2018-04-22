@@ -527,6 +527,8 @@
                     <connections>
                         <outlet property="addByManual" destination="xGH-tB-kgP" id="7NY-62-z9d"/>
                         <outlet property="addByScanner" destination="AwO-K7-jD6" id="wms-ew-Jhj"/>
+                        <outlet property="addWeight" destination="waW-je-xMy" id="BL7-Ea-PqU"/>
+                        <outlet property="logoutButton" destination="WHd-yP-Q2s" id="o5l-FT-7oc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xj1-7d-X6t" userLabel="First Responder" sceneMemberID="firstResponder"/>
