@@ -13,17 +13,17 @@ class addConsole: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
     }
-    
     @IBOutlet weak var addByScanner: UIButton!
-    
-    @IBOutlet weak var addByManual: UIButton!
-    
+    @IBOutlet weak var addManually: UIButton!
     @IBOutlet weak var addWeight: UIButton!
-    
     @IBOutlet weak var logoutButton: UIButton!
+    
+    
+    
+    
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

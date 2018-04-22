@@ -33,7 +33,7 @@ class HomeController: UIViewController{
     @IBOutlet weak var vitaminALabel: UILabel!
     
     @IBOutlet weak var vitaminCLabel: UILabel!
- 
+    
     @IBOutlet weak var calciumLabel: UILabel!
     
     @IBOutlet weak var ironLabel: UILabel!

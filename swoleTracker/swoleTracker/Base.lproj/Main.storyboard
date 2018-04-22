@@ -437,12 +437,12 @@
                         <outlet property="sodiumLabel" destination="v7t-KD-wl4" id="bCr-cj-E1W"/>
                         <outlet property="stepsWalkedLabel" destination="MQn-GJ-yyi" id="iXf-he-TaD"/>
                         <outlet property="vitaminALabel" destination="igA-kz-Ps1" id="Opv-Kg-e8Y"/>
-                        <outlet property="vitaminBLabel" destination="aae-Ow-bDE" id="9Vz-mk-aEe"/>
+                        <outlet property="vitaminCLabel" destination="gB5-Rx-dnl" id="6dB-Jh-89x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HYJ-N2-rPA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4161" y="188"/>
+            <point key="canvasLocation" x="4160.8000000000002" y="187.55622188905548"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="kY6-dl-rgj">
@@ -467,7 +467,7 @@
         <!--Add-->
         <scene sceneID="59L-0O-uOf">
             <objects>
-                <viewController title="Add" id="zXG-5b-FGE" customClass="addConsole" sceneMemberID="viewController">
+                <viewController title="Add" id="zXG-5b-FGE" customClass="addConsole" customModule="swoleTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="txg-Ec-N3y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -495,14 +495,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHd-yP-Q2s">
-                                <rect key="frame" x="78" y="513" width="218" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.75495871113989632" green="0.0" blue="0.025736649275414605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Logout">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQz-sh-EsX">
                                 <rect key="frame" x="78" y="278" width="218" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -519,21 +511,29 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHd-yP-Q2s">
+                                <rect key="frame" x="89" y="512" width="197" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.75495871113989632" green="0.0" blue="0.025736649275414605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Hcq-zm-4QX"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="more" id="B3X-Jj-oUO"/>
                     <connections>
-                        <outlet property="addByManual" destination="xGH-tB-kgP" id="7NY-62-z9d"/>
-                        <outlet property="addByScanner" destination="AwO-K7-jD6" id="wms-ew-Jhj"/>
-                        <outlet property="addWeight" destination="waW-je-xMy" id="BL7-Ea-PqU"/>
-                        <outlet property="logoutButton" destination="WHd-yP-Q2s" id="o5l-FT-7oc"/>
+                        <outlet property="addByScanner" destination="AwO-K7-jD6" id="Hwg-LV-46r"/>
+                        <outlet property="addManually" destination="xGH-tB-kgP" id="5dA-54-umx"/>
+                        <outlet property="addWeight" destination="waW-je-xMy" id="W7d-13-4v7"/>
+                        <outlet property="logoutButton" destination="WHd-yP-Q2s" id="QKs-Gj-nJK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xj1-7d-X6t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4160.8000000000002" y="897.30134932533736"/>
+            <point key="canvasLocation" x="4161" y="904"/>
         </scene>
         <!--History-->
         <scene sceneID="Uka-gG-EMN">
@@ -549,7 +549,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0z2-FF-V6T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4148" y="1751"/>
+            <point key="canvasLocation" x="4161" y="1747"/>
         </scene>
     </scenes>
     <resources>
