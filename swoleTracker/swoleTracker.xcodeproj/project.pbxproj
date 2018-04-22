@@ -13,6 +13,12 @@
 		52C3B1FB208C2D7A00D6A9B7 /* swoleTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52C3B1F9208C2D7A00D6A9B7 /* swoleTracker.xcdatamodeld */; };
 		52C3B1FD208C2D7C00D6A9B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C3B1FC208C2D7C00D6A9B7 /* Assets.xcassets */; };
 		52C3B200208C2D7C00D6A9B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C3B1FE208C2D7C00D6A9B7 /* LaunchScreen.storyboard */; };
+		6E4519DD208C538300FDF75B /* Bauhaus-93_6274.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E4519DC208C538300FDF75B /* Bauhaus-93_6274.ttf */; };
+		6E4519DF208C785500FDF75B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4519DE208C785500FDF75B /* HomeController.swift */; };
+		6E4519E1208C795A00FDF75B /* weight_scale.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E4519E0208C795A00FDF75B /* weight_scale.jpeg */; };
+		6E4519E3208C796300FDF75B /* eating-healthy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E4519E2208C796300FDF75B /* eating-healthy.jpeg */; };
+		6E4519E5208C796A00FDF75B /* ThinkstockPhotos-589415708.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E4519E4208C796A00FDF75B /* ThinkstockPhotos-589415708.jpeg */; };
+		6E4519E7208CE41F00FDF75B /* addConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4519E6208CE41F00FDF75B /* addConsole.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		52C3B1FC208C2D7C00D6A9B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C3B1FF208C2D7C00D6A9B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52C3B201208C2D7C00D6A9B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4519DC208C538300FDF75B /* Bauhaus-93_6274.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bauhaus-93_6274.ttf"; path = "../../../Desktop/Bauhaus-93_6274.ttf"; sourceTree = "<group>"; };
+		6E4519DE208C785500FDF75B /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		6E4519E0208C795A00FDF75B /* weight_scale.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = weight_scale.jpeg; path = ../../../../../var/folders/dq/szvfyq213_q4xkhb0pfzjhnw0000gn/T/com.apple.iChat/Messages/Transfers/weight_scale.jpeg; sourceTree = "<group>"; };
+		6E4519E2208C796300FDF75B /* eating-healthy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "eating-healthy.jpeg"; path = "../../../../../var/folders/dq/szvfyq213_q4xkhb0pfzjhnw0000gn/T/com.apple.iChat/Messages/Transfers/eating-healthy.jpeg"; sourceTree = "<group>"; };
+		6E4519E4208C796A00FDF75B /* ThinkstockPhotos-589415708.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ThinkstockPhotos-589415708.jpeg"; path = "../../../../../var/folders/dq/szvfyq213_q4xkhb0pfzjhnw0000gn/T/com.apple.iChat/Messages/Transfers/ThinkstockPhotos-589415708.jpeg"; sourceTree = "<group>"; };
+		6E4519E6208CE41F00FDF75B /* addConsole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addConsole.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +68,14 @@
 		52C3B1F1208C2D7A00D6A9B7 /* swoleTracker */ = {
 			isa = PBXGroup;
 			children = (
+				6E4519E4208C796A00FDF75B /* ThinkstockPhotos-589415708.jpeg */,
+				6E4519E2208C796300FDF75B /* eating-healthy.jpeg */,
+				6E4519E0208C795A00FDF75B /* weight_scale.jpeg */,
+				6E4519DC208C538300FDF75B /* Bauhaus-93_6274.ttf */,
 				52C3B1F2208C2D7A00D6A9B7 /* AppDelegate.swift */,
 				52C3B1F4208C2D7A00D6A9B7 /* ViewController.swift */,
+				6E4519DE208C785500FDF75B /* HomeController.swift */,
+				6E4519E6208CE41F00FDF75B /* addConsole.swift */,
 				52C3B1F6208C2D7A00D6A9B7 /* Main.storyboard */,
 				52C3B1FC208C2D7C00D6A9B7 /* Assets.xcassets */,
 				52C3B1FE208C2D7C00D6A9B7 /* LaunchScreen.storyboard */,
@@ -125,9 +143,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E4519DD208C538300FDF75B /* Bauhaus-93_6274.ttf in Resources */,
 				52C3B200208C2D7C00D6A9B7 /* LaunchScreen.storyboard in Resources */,
+				6E4519E1208C795A00FDF75B /* weight_scale.jpeg in Resources */,
 				52C3B1FD208C2D7C00D6A9B7 /* Assets.xcassets in Resources */,
 				52C3B1F8208C2D7A00D6A9B7 /* Main.storyboard in Resources */,
+				6E4519E3208C796300FDF75B /* eating-healthy.jpeg in Resources */,
+				6E4519E5208C796A00FDF75B /* ThinkstockPhotos-589415708.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E4519E7208CE41F00FDF75B /* addConsole.swift in Sources */,
+				6E4519DF208C785500FDF75B /* HomeController.swift in Sources */,
 				52C3B1F5208C2D7A00D6A9B7 /* ViewController.swift in Sources */,
 				52C3B1FB208C2D7A00D6A9B7 /* swoleTracker.xcdatamodeld in Sources */,
 				52C3B1F3208C2D7A00D6A9B7 /* AppDelegate.swift in Sources */,
@@ -285,13 +309,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V42446KPG3;
+				DEVELOPMENT_TEAM = SVAFJT4575;
 				INFOPLIST_FILE = swoleTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.swoleBoyz.swoleTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swoleBoyz.swoleTrackerk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,13 +327,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V42446KPG3;
+				DEVELOPMENT_TEAM = SVAFJT4575;
 				INFOPLIST_FILE = swoleTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.swoleBoyz.swoleTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swoleBoyz.swoleTrackerk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
